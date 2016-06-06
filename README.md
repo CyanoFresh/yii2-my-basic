@@ -1,15 +1,13 @@
-Yii2 Template
+Yii2 Enhanced Basic Template
 ============================
 
-This is my template for quick project development. Based on basic template
-but with environments and other features.
+Removed unused actions, added environments, custom GII templates and other...
 
 
 DIRECTORY STRUCTURE
 -------------------
 
       assets/             contains assets definition
-      commands/           contains console commands (controllers)
       config/             contains application configurations
       controllers/        contains Web controller classes
       mail/               contains view files for e-mails
@@ -33,16 +31,10 @@ INSTALLATION
 Get project files:
 
 ~~~
-git clone https://github.com/CyanoFresh/yii2-my-template.git PROJECTNAME
+git clone https://github.com/CyanoFresh/yii2-my-basic.git PROJECTNAME
 cd PROJECTNAME
 composer install
 php init
-~~~
-
-Then configure DB in config/db-local.php and run:
-
-~~~
-php yii migrate
 ~~~
 
 **NOTES:**
